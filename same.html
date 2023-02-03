@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta content="width=dives-width, initial-scale=1.0">
+    <title>same number</title>
+</head>
+
+<body>
+    <script>
+        document.write('<br>');
+        document.write('<br>');
+
+        //3. Two digit Numbers same numbers 
+        document.write("Two digit Numbers same numbers : ");
+        document.write('<br>');
+        let two = [11, 12, 21, 22, 23, 33, 34, 40, 44];
+        for (i = 0; i <= two.length; i++) {
+            if (two[i] % 11 == 0) {
+                document.write(two[i]);
+                document.write('<br>');
+            }
+        }
+    </script>
+</body>
+
+</html>
